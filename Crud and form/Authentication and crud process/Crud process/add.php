@@ -96,8 +96,9 @@ if (isset($_GET['id']) && $_GET['id'] != '') {
             <div class="col-sm-7">
                 <select class="form-control" name="course" id="course">
                 <option value="">Select Course</option>
-                <option value="BCA" <?php if ($course == 'BCA') {echo "selected";}?>>BCA</option>
-                <option value="MCA" <?php if ($course == 'MCA') {echo "selected";}?>>MCA</option>
+                <option value="PHP" <?php if ($course == 'PHP') {echo "selected";}?>>NODES.JS</option>
+                <option value="NODES.JS" <?php if ($course == 'NODES.JS') {echo "selected";}?>>NODES.JS</option>
+                    <option value="FLUTTER" <?php if ($course == 'FLUTTER') {echo "selected";}?>>FLUTTER</option>
                 </select>
                 </div>
             </div>
