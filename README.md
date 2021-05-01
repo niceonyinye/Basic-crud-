@@ -1,4 +1,4 @@
-# Basic-crud-1.
+# Basic-crud.
 This is an Authentication form to
 
 - register (a new user can register, their details stored in a MySQL database). 
